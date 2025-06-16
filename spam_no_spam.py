@@ -2,7 +2,8 @@
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
-
+""" questo esercizio non funzinerà bene ma mi serve per farvi capire un comcetto importante:
+il ML HA BOSOGNO DI DATI ... TANTI DATI """
 # Dati: una lista di messaggi e le relative etichette (spam o no)
 messaggi = [
     "Ciao, come stai?",
